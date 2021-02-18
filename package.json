@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch back-end --exec node --experimental-modules back-end/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denismuraguri/amazona-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denismuraguri/amazona-app/issues"
+  },
+  "homepage": "https://github.com/denismuraguri/amazona-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
