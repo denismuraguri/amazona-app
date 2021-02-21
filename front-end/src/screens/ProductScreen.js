@@ -46,7 +46,7 @@ function ProductScreen(props) {
                                    {//using conditional rendering
                                    product.countInStock> 0 ?
                                    (<span className="success">In Stock</span> ) :                                   
-                                   (<span className="error">Unavailable</span>)}</div>
+                                   (<span className="danger">Unavailable</span>)}</div>
                             </div>
                         </li>
                         <li>
