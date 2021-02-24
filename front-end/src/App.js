@@ -5,7 +5,7 @@ import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import {Link} from 'react-router-dom'
 import { useSelector } from 'react-redux';
-{/**</BrowserRouter> */}
+/**</BrowserRouter> */
 function App() {
 
     const cart = useSelector(state => state.cart)
