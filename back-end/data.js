@@ -1,5 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 //defining data as an object
 const data = {
+    users: [
+        {
+            name: 'Denis',
+            email:'denismuragurim@gmail.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: true,
+        },
+        {
+            name: 'John',
+            email: 'user@gmail.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: false,
+        },
+        
+    ],
+    
     //defining products array
     products:[
         //create a product object
