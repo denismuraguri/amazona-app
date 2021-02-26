@@ -24,7 +24,7 @@ function App() {
                         <span className="badge">{cartItems.length}</span>
                     )}   
                     </Link>
-                    <Link to="/sign-in">
+                    <Link to="/signin">
                         sign-in
                     </Link>
                 </div>

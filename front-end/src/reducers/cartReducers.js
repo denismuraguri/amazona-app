@@ -4,7 +4,7 @@ export const cartReducer = (state = { cartItems: []}, action) => {
     switch(action.type){
         case CART_ADD_ITEM:
             const item = action.payload;
-            //The line compares current product to be added, productid with id of item in the cart items
+            //The line compares current product to be added, productId with id of item in the cart items
             const existItem = state.cartItems.find((x) => x.product === item.product);
             if(existItem){
                 return {

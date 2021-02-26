@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 front-end/package-lock.json
 package-lock.json
+template/.env
+.env

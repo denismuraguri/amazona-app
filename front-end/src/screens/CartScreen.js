@@ -22,7 +22,7 @@ export default function CartScreen(props) {
         dispatch(removeFromCart(id));
     };
     const checkoutHandler = () => {
-        props.history.push('/sign-in?redirect=shipping')
+        props.history.push('/signin?redirect=shipping')
     };
 
     return (
