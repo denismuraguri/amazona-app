@@ -23,7 +23,6 @@ const data = {
         //create a product object
         {
             //set information about the object
-            _id: '1',
             name: "Nike Slim Shirt",
             category:'Shirts',
             images:'/images/p1.jpg',
@@ -36,7 +35,6 @@ const data = {
         },
         {
             //set information about the object
-            _id: '2',
             name: "Adidas Fit Shirt",
             category:'Shirts',
             images:'/images/p2.jpg',
@@ -49,7 +47,6 @@ const data = {
         },
         {
             //set information about the object
-            _id: '3',
             name: "Lacoste Free Shirt",
             category:'Shirts',
             images:'/images/p3.jpg',
@@ -62,7 +59,6 @@ const data = {
         },
         {
             //set information about the object
-            _id: '4',
             name: "Nike Slim Pants",
             category:'Pants',
             images:'/images/p4.jpg',
@@ -75,7 +71,6 @@ const data = {
         },
         {
             //set information about the object
-            _id: '5',
             name: "Puma Slim Shirt",
             category:'Shirts',
             images:'/images/p5.jpg',
@@ -88,7 +83,6 @@ const data = {
         },
         {
             //set information about the object
-            _id: '6',
             name: "Adidas Fit Pant",
             category:'Pant',
             images:'/images/p6.jpg',
