@@ -9,7 +9,6 @@ function PaymentMethodScreen(props) {
     if (!shippingAddress.address){
         props.history.push('/shipping') 
     }
-    
     const [paymentMethod, setPaymentMethod] = useState('Paypal')
     const dispatch = useDispatch()
     const submitHandler = (e) => {
